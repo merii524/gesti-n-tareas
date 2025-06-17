@@ -21,5 +21,5 @@ from django.urls import path, include
 # Aquí se definen las rutas principales del proyecto, incluyendo la aplicación 'tareas'
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tareas/', include('tareas.urls')),
+    path('', include('tareas.urls')),
 ]
