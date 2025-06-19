@@ -21,9 +21,9 @@ Esta aplicación permite crear, listar, editar, eliminar y marcar tareas como co
 
 1. Clona el repositorio:
    ```sh
-   git clone <url-del-repositorio>
+   git clone https://github.com/merii524/gesti-n-tareas.git
    cd gesti-n-tareas
-   ```
+
 2. Crea un entorno virtual e instala dependencias:
    ```sh
    python -m venv venv
@@ -73,13 +73,6 @@ El modelo principal es `Tarea`:
 - Eliminar tarea: `/tareas/<id>/eliminar/`
 - Cambiar estado: `/tareas/<id>/cambiar_estado/`
 
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Por favor, abre un issue o un pull request.
-
-## Licencia
-
-MIT
 
 # Trabajo Práctico: Aplicaciones Web con Frameworks Python
 
